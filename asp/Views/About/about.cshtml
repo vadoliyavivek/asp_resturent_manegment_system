@@ -1,0 +1,170 @@
+﻿
+@{
+    ViewData["Title"] = "about";
+}
+<header class="top-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="header__left">
+            <a class="navbar-brand" href="home.php">
+                <img src="~/images/logo.png" alt="" height="97px" class="border-radius: 50%" />
+            </a>
+            <div class="header__right" id="navbars-rs-food">
+                <ul class="navbar-nav header__lists ml-auto">
+                    <li class="nav-item active"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Menu" asp-action="menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Reservation" asp-action="Reservation">Reservation</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="About" asp-action="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Contact" asp-action="contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Feedback" asp-action="feedback">Feedback</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Profile</a>
+                        <div class="dropdown-menu">
+                            <a class="nav-link" asp-controller="Profile" asp-action="Edit_profile">Edit Profile</a>
+                            <a class="nav-link" asp-controller="Login" asp-action="Login_page">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>ABOUT US</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <br />
+    <div class="heading-title text-center">
+        <h2>OUR ORGANIZATION</h2>
+    </div>
+
+    <p>
+        PKD Restaurents is one of the world’s largest quick service restaurant companies with approximately $32 billion in annual system-wide sales and 27,000 restaurants in more than 100 countries and U.S. territories. PKD owns three of the world’s most prominent and iconic quick service restaurant brands – TIM HORTONS®, BURGER KING®, and POPEYES®. These independently operated brands have been serving their respective guests, franchisees, and communities for over 45 years.<br />
+    </p>
+
+    <p>
+        <b><h3>Our Values</h3></b>
+        Core to our vision of building the most loved restaurant brands in the world are the values that guide our work, our actions, and our interactions each and every day as a company. At PKD, we believe:
+        <ul>
+            <li><b>Dream Big:</b> is too short for small dreams</li>
+            <li><b>Ownership:</b> You value things more when you own them</li>
+            <li><b>Meritocracy:</b> Your growth is based entirely on what you do and how you do it</li>
+            <li><b>Diversity:</b> wide range of voices and perspectives make us stronger</li>
+            <li><b>Creativity & Innovation:</b> ways to do things differently to make them better</li>
+            <li><b>Authenticity:</b> Be a hard-working, good person</li>
+        </ul>
+    </p>
+
+    <p>
+        <b><h3>Our Employee Value Proposition</h3></b>
+        <ul>
+            <li><b>Big Dream:</b> are driven by a big dream, working together to build the most loved restaurant brands in the world.</li>
+            <li><b>Big Responsibility:</b> believe in quick service without compromises. That means quality, real ingredients, social purpose, and accountability for what we put into the world.</li>
+            <li><b>Growth:</b> We have over 27,000 locations in 100+ countries with plans to reach more than 40,000 locations in the coming years. This growth, coupled with our culture of meritocracy, creates opportunities for all of us.</li>
+            <li><b>Hard Working Good People:</b> attract diverse and driven talent, who are the owners of our vision. We are hard working people – and fundamentally good at our core.</li>
+            <li><b>Hospitality Culture:</b> We get excited to welcome hundreds of millions of people to our restaurants every year – in all of the languages, countries, and communities that we serve around the planet.</li>
+            <li><b>Real Ownership:</b> We help our teams become actual owners of our business, with compensation that allows us to acquire substantial share ownership as our responsibilities and contributions grow. We are trusted to own and deliver on our area of the business as partners – not just as employees.</li>
+        </ul>
+    </p>
+</div>
+
+<br />
+<hr />
+<br />
+
+<div class="container">
+    <div data-aos="fade-up">
+        <div class="heading-title text-center">
+            <div class="section-title">
+                <h2>OWNER</h2>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="~/images/meet1.jpg" alt="" width="400" height="400" />
+                    <h3 class="text-center">Meet Gajera</h3>
+                </td>
+                <td>
+                    <img src="~/images/ritu.jpg" alt="" width="400" height="400" />
+                    <h3 class="text-center">Ritu Hapani</h3>
+                </td>
+                <td>
+                    <img src="~/images/vivek.jpg" alt="" width="400" height="400" />
+                    <h3 class="text-center">Vivek Vadoliya</h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<footer class="footer-area bg-f">
+    <div class="container">
+        <div class="row">
+            <table>
+                <tr>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Useful Links</h3>
+                            <p class="lead"><a asp-controller="Menu" asp-action="menu">Menu</a></p>
+                            <p class="lead"><a asp-controller="Reservation" asp-action="Reservation">Reservation</a></p>
+                            <p class="lead"><a asp-controller="About" asp-action="about">About</a></p>
+                            <p class="lead"><a asp-controller="Contact" asp-action="contact">Contact</a></p>
+                            <p class="lead"><a asp-controller="Feedback" asp-action="feedback">Feedback</a></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Subscribe</h3>
+                            <div class="subscribe_form">
+                                <form class="subscribe_form">
+                                    <input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email" />
+                                    <button type="submit" class="submit">SUBSCRIBE</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Contact information</h3>
+                            <p class="lead">MRV Restaurants, Rajkot, India</p>
+                            <p class="lead"><a href="meet">+91 95372 30057</a></p>
+                            <p class="lead"><a href="meet">+91 82000 56707</a></p>
+                            <p class="lead"><a href="meet">+91 99098 08581</a></p>
+                            <p><a href="meet">MRVRestaurants@gmail.com</a></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Opening hours</h3>
+                            <p><span class="text-color">Sunday:</span> Closed</p>
+                            <p><span class="text-color">Mon-Tue:</span> 9:00 AM - 10:00 PM</p>
+                            <p><span class="text-color">Wed-Thu:</span> 9:00 AM - 10:00 PM</p>
+                            <p><span class="text-color">Fri-Sat:</span> 5:00 PM - 10:00 PM</p>
+                            <br /><br />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="company-name">
+                        All Rights Reserved. &copy; 2023 <a href="meet">Restaurant</a> Design By :
+                        <a href="meet">MRV TEAM</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

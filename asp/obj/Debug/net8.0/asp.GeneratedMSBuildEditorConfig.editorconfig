@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = asp
+build_property.RootNamespace = asp
+build_property.ProjectDir = D:\project\asp\asp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\project\asp\asp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/project/asp/asp/Views/About/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcYWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Contact/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Feedback/feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcZmVlZGJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Login/Login_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5fcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Login/Signup_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbnVwX3BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Menu/All_Dishes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxBbGxfRGlzaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Menu/BURGGER.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxCVVJHR0VSLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Menu/Drinks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEcmlua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Menu/Fastfood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxGYXN0Zm9vZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Menu/Juice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxKdWljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Menu/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Menu/Pizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxQaXp6YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Profile/Edit_profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxFZGl0X3Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Profile/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxwcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Reservation/reservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25ccmVzZXJ2YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/asp/asp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cjfskojh45

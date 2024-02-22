@@ -1,0 +1,157 @@
+﻿
+@{
+    ViewData["Title"] = "Drinks";
+}
+<header class="top-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="header__left">
+            <a class="navbar-brand" href="home.php">
+                <img src="~/images/logo.png" alt="" height="97px" class="border-radius: 50%" />
+            </a>
+            <div class="header__right" id="navbars-rs-food">
+                <ul class="navbar-nav header__lists ml-auto">
+                    <li class="nav-item active"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Menu" asp-action="menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Reservation" asp-action="Reservation">Reservation</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="About" asp-action="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Contact" asp-action="contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Feedback" asp-action="feedback">Feedback</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Profile</a>
+                        <div class="dropdown-menu">
+                            <a class="nav-link" asp-controller="Profile" asp-action="Edit_profile">Edit Profile</a>
+                            <a class="nav-link" asp-controller="Login" asp-action="Login_page">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>DRINKS</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<table>
+    <tr>
+        <td>
+            <div class="con">
+                <img src="~/images/drinks/soft-drink.webp" height="250px" width="100%" alt="" />
+                <tr>
+                    <td><h3 class="text-left">Soft Drinks</h3></td>
+                    <h3 class="text-right">₹ 70</h3>
+                </tr>
+                <h4>Yummy 👌👌</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit" >
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                    <button class="btn2" type="submit" name="order">ORDER</button>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/drinks/soft-drink.webp" height="250px" width="100%" alt="" />
+                <tr>
+                    <td><h3 class="text-left">Soft Drinks</h3></td>
+                    <h3 class="text-right">₹ 70</h3>
+                </tr>
+                <h4>Yummy 👌👌</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit" >
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                    <button class="btn2" type="submit" name="order">ORDER</button>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/drinks/soft-drink.webp" height="250px" width="100%" alt="" />
+                <tr>
+                    <td><h3 class="text-left">Soft Drinks</h3></td>
+                    <h3 class="text-right">₹ 70</h3>
+                </tr>
+                <h4>Yummy 👌👌</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit" >
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                    <button class="btn2" type="submit" name="order">ORDER</button>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+<footer class="footer-area bg-f">
+    <div class="container">
+        <div class="row">
+            <table>
+                <tr>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Useful Links</h3>
+                            <p class="lead"><a asp-controller="Menu" asp-action="menu">Menu</a></p>
+                            <p class="lead"><a asp-controller="Reservation" asp-action="Reservation">Reservation</a></p>
+                            <p class="lead"><a asp-controller="About" asp-action="about">About</a></p>
+                            <p class="lead"><a asp-controller="Contact" asp-action="contact">Contact</a></p>
+                            <p class="lead"><a asp-controller="Feedback" asp-action="feedback">Feedback</a></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Subscribe</h3>
+                            <div class="subscribe_form">
+                                <form class="subscribe_form">
+                                    <input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email" />
+                                    <button type="submit" class="submit">SUBSCRIBE</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Contact information</h3>
+                            <p class="lead">MRV Restaurants, Rajkot, India</p>
+                            <p class="lead"><a href="meet">+91 95372 30057</a></p>
+                            <p class="lead"><a href="meet">+91 82000 56707</a></p>
+                            <p class="lead"><a href="meet">+91 99098 08581</a></p>
+                            <p><a href="meet">MRVRestaurants@gmail.com</a></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Opening hours</h3>
+                            <p><span class="text-color">Sunday:</span> Closed</p>
+                            <p><span class="text-color">Mon-Tue:</span> 9:00 AM - 10:00 PM</p>
+                            <p><span class="text-color">Wed-Thu:</span> 9:00 AM - 10:00 PM</p>
+                            <p><span class="text-color">Fri-Sat:</span> 5:00 PM - 10:00 PM</p>
+                            <br /><br />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="company-name">
+                        All Rights Reserved. &copy; 2023 <a href="meet">Restaurant</a> Design By :
+                        <a href="meet">MRV TEAM</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
