@@ -1,0 +1,57 @@
+﻿@model MRV_resturant.Models.LoginModel
+
+@{
+    ViewData["Title"] = "Login_page";
+    Layout = "~/Views/Shared/_Layout_login.cshtml";
+}
+
+<link href="~/css/login.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<div class="b">
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-t-85 p-b-20">
+                <form asp-controller="Home" asp-action="Index" method="post" class="login100-form validate-form">
+                    <span class="login100-form-title p-b-37">
+                        Sign In
+                    </span>
+                    <span class="login100-form-avatar">
+                        <img src="~/images/MRV.png" />
+                    </span>
+
+                    <div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate="Enter Email">
+                        <input asp-for="Email" class="input100 input1" placeholder="Email" type="text" name="email" required />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
+                        <input asp-for="Password" class="input100 input1" placeholder="Password" type="password" name="pass" required />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="container-login100-form-btn5">
+                        <button type="submit" class="login100-form-btn5 input1" asp-controller="Login">LOGIN</button>
+                    </div>
+                    <br />
+
+                    <ul class="login-more p-t-190">
+                        <li class="m-b-8">
+                            <span class="txt1">
+                                Forgot
+                            </span>
+                            <a href="#" class="txt2">
+                                Username / Password?
+                            </a>
+                        </li>
+                        <li>
+                            <span class="txt1">
+                                Don’t have an account?
+                            </span>
+                            <a asp-controller="Login" asp-action="Signup_page" class="txt2">Sign up</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
