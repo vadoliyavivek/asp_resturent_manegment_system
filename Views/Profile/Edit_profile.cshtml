@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Edit_profile";
+}
+<link href="~/css/header.css" rel="stylesheet" />
+<br />
+<br />
+<br />
+<br />
+<br />
+<section id="doctors" class="doctors section-bg">
+    <form name="f1" method="post">
+        <div class="containerrr rounded bg-white mt-5 mb-5" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                        <img class="rounded-circle mt-5" width="150px" alt="" src="~/images/meet.jpeg" /><br />
+                        <span class="font-weight-bold">MEET GAJERA</span>
+                        <div>
+                            <button type="submit" class="btn10">Change</button>
+                            <button type="submit" class="btn10">Remove</button>
+                        </div>
+                        <!-- Move the button inside this div -->
+                        
+                    </div>
+                </div>
+                <div class="col-md-8 border-right">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="text-left">Profile Settings</h4>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Name</label>
+                                <input type="text" class="form-control1" name="name" placeholder="Name" required />
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Email ID</label>
+                                <input type="text" class="form-control1" name="email" placeholder="enter email id" required />
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Mobile Number</label>
+                                <input type="text" class="form-control1" name="mobile" placeholder="enter phone number" required />
+                            </div>
+                        </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <label class="labels">City</label>
+                                            <input type="text" class="form-control1" name="city" placeholder="enter your City" required />
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="td-margin">
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <label class="labels">District</label>
+                                            <input type="text" class="form-control1" name="district" placeholder="enter your District" required />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                       
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">ZipCode</label>
+                                <input type="text" class="form-control1" name="zipcode" placeholder="enter Zipcode" required />
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Address</label>
+                                <textarea class="form-control1" name="address" placeholder="enter address " readonly></textarea>
+                            </div>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <button class="btn2" type="submit">Save Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>

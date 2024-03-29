@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRV-resturant", "MRV-resturant\MRV-resturant.csproj", "{BF2155DB-5AB7-465A-8537-87BB5EDF4030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF2155DB-5AB7-465A-8537-87BB5EDF4030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2155DB-5AB7-465A-8537-87BB5EDF4030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2155DB-5AB7-465A-8537-87BB5EDF4030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2155DB-5AB7-465A-8537-87BB5EDF4030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F8CC29D-1177-4FBC-A5EF-0CE3AB47A3AC}
+	EndGlobalSection
+EndGlobal

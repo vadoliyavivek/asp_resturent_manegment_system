@@ -1,0 +1,153 @@
+﻿@model List<MenuItemModel>
+@{
+    ViewData["Title"] = "Pizza";
+}
+<link href="~/css/header.css" rel="stylesheet" />
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>PIZZA</h1>
+            </div>
+        </div>
+    </div>
+</div>
+@* @foreach (var item in Model)
+{
+    <div class="con">
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(item.ImageData)" height="250px" width="100%" alt="" />
+        <table>
+            <tr>
+                <td><h3 class="text-left">@item.Name</h3></td>
+                <td><h3 class="text-right">₹ @item.Price</h3></td>
+            </tr>
+        </table>
+        <h4>So Yammy</h4>
+        <div class="gridbtn">
+            <button class="btn1" name="cart" type="submit">
+                <img src="~/images/shopping.png" width="30" height="30" />
+            </button>
+            <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+        </div>
+    </div>
+} *@
+
+<table>
+    <tr>
+        <td>
+            <div class="con">
+                <img src="~/images/pizza/margherita.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Margherita</h3></td>
+                        <td><h3 class="text-right">₹ 80</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+        
+        <td>
+            <div class="con">
+                <img src="~/images/pizza/homemade pepperoni.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Homemade pepperoni</h3></td>
+                        <td><h3 class="text-right">₹ 120</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+					<button class="btn1" name="cart" type="submit">
+						<img src="~/images/shopping.png" width="30" height="30"/>
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/pizza/pastta_pizza.png" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Pastta pizza</h3></td>
+                        <td><h3 class="text-right">₹ 100</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="con">
+                <img src="~/images/pizza/classic-cheese.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Classic-cheese</h3></td>
+                        <td><h3 class="text-right">₹ 110</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/pizza/wood_fired_sourdough.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">wood-fired-sourdough</h3></td>
+                        <td><h3 class="text-right">₹ 150</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/pizza/chicken.webp" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Chicken</h3></td>
+                        <td><h3 class="text-right">₹ 180</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>

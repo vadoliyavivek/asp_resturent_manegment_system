@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "Drinks";
+}
+<link href="~/css/header.css" rel="stylesheet" />
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>DRINKS</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<table>
+    <tr>
+        <td>
+            <div class="con">
+                <img src="~/images/drinks/soft-drink.webp" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Soft Drinks</h3></td>
+                        <td><h3 class="text-right">₹ 70</h3></td>
+                    </tr>
+                </table>
+                <h4>Yummy 👌👌</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/drinks/cola.jpeg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">coca cola</h3></td>
+                        <td><h3 class="text-right">₹ 100</h3></td>
+                    </tr>
+                </table>
+                <h4>😋😋😋</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/drinks/pepsi.jpeg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">pepsi cold</h3></td>
+                        <td><h3 class="text-right">₹ 120</h3></td>
+                    </tr>
+                </table>
+                <h4>😜😜😜</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
