@@ -1,0 +1,174 @@
+﻿
+@{
+    ViewData["Title"] = "profile";
+}
+<header class="top-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="header__left">
+            <a class="navbar-brand" href="home.php">
+                <img src="~/images/logo.png" alt="" height="97px" class="border-radius: 50%" />
+            </a>
+            <div class="header__right" id="navbars-rs-food">
+                <ul class="navbar-nav header__lists ml-auto">
+                    <li class="nav-item active"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Menu" asp-action="menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Reservation" asp-action="Reservation">Reservation</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="About" asp-action="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Contact" asp-action="contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Feedback" asp-action="feedback">Feedback</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Profile</a>
+                        <div class="dropdown-menu">
+                            <a class="nav-link" asp-controller="Profile" asp-action="Edit_profile">Edit Profile</a>
+                            <a class="nav-link" asp-controller="Login" asp-action="Login_page">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<br />
+<br />
+<br />
+<br />
+<br />
+<section id="doctors" class="doctors section-bg">
+    <form name="f1" method="post">
+        <div class="containerrr rounded bg-white mt-5 mb-5" data-aos="fade-up">
+            <table>
+                <div class="row">
+                <tr>
+                    <div class="col-md-3 border-right">
+                        <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                            <img class="rounded-circle mt-5" width="150px" alt="" src="~/images/meet.jpeg" /><br />
+                            <span class="font-weight-bold">MEET GAJERA</span>
+                        </div>
+                    </div>
+                    <td>
+                        <div class="col-md-8 border-right">
+                            <div class="p-3 py-5">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h4 class="text-left">Profile</h4>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <label class="labels">Name</label>
+                                        <input type="text" class="form-control1" name="name" placeholder="Name" required />
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <label class="labels">Email ID</label>
+                                        <input type="text" class="form-control1" name="email" placeholder="enter email id" required />
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <label class="labels">Mobile Number</label>
+                                        <input type="text" class="form-control1" name="mobile" placeholder="enter phone number" required />
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="row mt-3">
+                                            <div class="col-md-6">
+                                                <label class="labels">City</label>
+                                                <input type="text" class="form-control1" name="city" placeholder="enter your City" required />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="labels">District</label>
+                                                <input type="text" class="form-control1" name="district" placeholder="enter your District" required />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <label class="labels">ZipCode</label>
+                                        <input type="text" class="form-control1" name="zipcode" placeholder="enter Zipcode" required />
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <label class="labels">Address</label>
+                                        <textarea class="form-control1" name="address" placeholder="enter address " readonly></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </div>
+        </table>
+       </div>
+    </form>
+</section>
+<footer class="footer-area bg-f">
+    <div class="container">
+        <div class="row">
+            <table>
+                <tr>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Useful Links</h3>
+                            <p class="lead"><a asp-controller="Menu" asp-action="menu">Menu</a></p>
+                            <p class="lead"><a asp-controller="Reservation" asp-action="Reservation">Reservation</a></p>
+                            <p class="lead"><a asp-controller="About" asp-action="about">About</a></p>
+                            <p class="lead"><a asp-controller="Contact" asp-action="contact">Contact</a></p>
+                            <p class="lead"><a asp-controller="Feedback" asp-action="feedback">Feedback</a></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Subscribe</h3>
+                            <div class="subscribe_form">
+                                <form class="subscribe_form">
+                                    <input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email" />
+                                    <button type="submit" class="submit">SUBSCRIBE</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Contact information</h3>
+                            <p class="lead">MRV Restaurants, Rajkot, India</p>
+                            <p class="lead"><a href="meet">+91 95372 30057</a></p>
+                            <p class="lead"><a href="meet">+91 82000 56707</a></p>
+                            <p class="lead"><a href="meet">+91 99098 08581</a></p>
+                            <p><a href="meet">MRVRestaurants@gmail.com</a></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-lg-3 col-md-6">
+                            <h3>Opening hours</h3>
+                            <p><span class="text-color">Sunday:</span> Closed</p>
+                            <p><span class="text-color">Mon-Tue:</span> 9:00 AM - 10:00 PM</p>
+                            <p><span class="text-color">Wed-Thu:</span> 9:00 AM - 10:00 PM</p>
+                            <p><span class="text-color">Fri-Sat:</span> 5:00 PM - 10:00 PM</p>
+                            <br /><br />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="company-name">
+                        All Rights Reserved. &copy; 2023 <a href="meet">Restaurant</a> Design By :
+                        <a href="meet">MRV TEAM</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
