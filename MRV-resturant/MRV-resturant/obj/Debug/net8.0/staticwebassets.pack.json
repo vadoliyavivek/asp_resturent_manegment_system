@@ -1,0 +1,901 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MRV-resturant.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MRV-resturant.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\css\\reservation.css",
+      "PackagePath": "staticwebassets\\css\\reservation.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\10.jpeg",
+      "PackagePath": "staticwebassets\\images\\10.jpeg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Cold.jpg",
+      "PackagePath": "staticwebassets\\images\\Cold.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Cold1.jpg",
+      "PackagePath": "staticwebassets\\images\\Cold1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Cold2.jpg",
+      "PackagePath": "staticwebassets\\images\\Cold2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Cold3.jpg",
+      "PackagePath": "staticwebassets\\images\\Cold3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Cold4.jpg",
+      "PackagePath": "staticwebassets\\images\\Cold4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Cold5.jpg",
+      "PackagePath": "staticwebassets\\images\\Cold5.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Juice1.jpg",
+      "PackagePath": "staticwebassets\\images\\Juice1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Juice2.jpg",
+      "PackagePath": "staticwebassets\\images\\Juice2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Juice4.jpg",
+      "PackagePath": "staticwebassets\\images\\Juice4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Juice5.jpg",
+      "PackagePath": "staticwebassets\\images\\Juice5.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\Juice6.jpg",
+      "PackagePath": "staticwebassets\\images\\Juice6.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\MRV.png",
+      "PackagePath": "staticwebassets\\images\\MRV.png"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\PKD.png",
+      "PackagePath": "staticwebassets\\images\\PKD.png"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\all-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\all-bg.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\avt-img.jpg",
+      "PackagePath": "staticwebassets\\images\\avt-img.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-01.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-02.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-03.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-04.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-04.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-05.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-05.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-06.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-06.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-07.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-07.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-08.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-08.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\blog-img-09.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-09.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\burgger.jpg",
+      "PackagePath": "staticwebassets\\images\\burgger.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\calldrinks.jpg",
+      "PackagePath": "staticwebassets\\images\\calldrinks.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch1.jpg",
+      "PackagePath": "staticwebassets\\images\\ch1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch2.jpg",
+      "PackagePath": "staticwebassets\\images\\ch2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch3.jpg",
+      "PackagePath": "staticwebassets\\images\\ch3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch4.jpg",
+      "PackagePath": "staticwebassets\\images\\ch4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch5.jpg",
+      "PackagePath": "staticwebassets\\images\\ch5.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch6.jpg",
+      "PackagePath": "staticwebassets\\images\\ch6.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch7.jpg",
+      "PackagePath": "staticwebassets\\images\\ch7.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch8.jpg",
+      "PackagePath": "staticwebassets\\images\\ch8.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ch9.jpg",
+      "PackagePath": "staticwebassets\\images\\ch9.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\dishes\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\dishes\\1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\dishes\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\dishes\\2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\dishes\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\dishes\\3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\dishes\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\dishes\\4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\dishes\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\dishes\\5.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\drinks\\cola.jpeg",
+      "PackagePath": "staticwebassets\\images\\drinks\\cola.jpeg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\drinks\\pepsi.jpeg",
+      "PackagePath": "staticwebassets\\images\\drinks\\pepsi.jpeg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\drinks\\soft-drink.webp",
+      "PackagePath": "staticwebassets\\images\\drinks\\soft-drink.webp"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fast9.jpg",
+      "PackagePath": "staticwebassets\\images\\fast9.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood.jpeg",
+      "PackagePath": "staticwebassets\\images\\fastfood.jpeg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood\\fast1.jpg",
+      "PackagePath": "staticwebassets\\images\\fastfood\\fast1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood\\fast2.jpg",
+      "PackagePath": "staticwebassets\\images\\fastfood\\fast2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood\\fast3.jpg",
+      "PackagePath": "staticwebassets\\images\\fastfood\\fast3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood\\fast4.jpg",
+      "PackagePath": "staticwebassets\\images\\fastfood\\fast4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood\\fast5.jpg",
+      "PackagePath": "staticwebassets\\images\\fastfood\\fast5.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood\\fast6.jpg",
+      "PackagePath": "staticwebassets\\images\\fastfood\\fast6.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood\\fast7.jpg",
+      "PackagePath": "staticwebassets\\images\\fastfood\\fast7.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fastfood\\fast8.jpg",
+      "PackagePath": "staticwebassets\\images\\fastfood\\fast8.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\fav.jpg",
+      "PackagePath": "staticwebassets\\images\\fav.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\footer-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\footer-bg.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\gallery-img-01.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-01.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\gallery-img-02.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-02.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\gallery-img-03.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-03.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\gallery-img-04.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-04.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\gallery-img-05.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-05.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\gallery-img-06.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-06.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-01.jpg",
+      "PackagePath": "staticwebassets\\images\\img-01.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-02.jpg",
+      "PackagePath": "staticwebassets\\images\\img-02.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-03.jpg",
+      "PackagePath": "staticwebassets\\images\\img-03.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-04.jpg",
+      "PackagePath": "staticwebassets\\images\\img-04.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-05.jpg",
+      "PackagePath": "staticwebassets\\images\\img-05.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-06.jpg",
+      "PackagePath": "staticwebassets\\images\\img-06.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-07.jpg",
+      "PackagePath": "staticwebassets\\images\\img-07.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-08.jpg",
+      "PackagePath": "staticwebassets\\images\\img-08.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\img-09.jpg",
+      "PackagePath": "staticwebassets\\images\\img-09.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\inner-blog-img.jpg",
+      "PackagePath": "staticwebassets\\images\\inner-blog-img.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\juice.jpg",
+      "PackagePath": "staticwebassets\\images\\juice.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\juice8.jpg",
+      "PackagePath": "staticwebassets\\images\\juice8.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\juice\\All.webp",
+      "PackagePath": "staticwebassets\\images\\juice\\All.webp"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\juice\\Carrot-Juice.webp",
+      "PackagePath": "staticwebassets\\images\\juice\\Carrot-Juice.webp"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\juice\\Juice-1.jpg",
+      "PackagePath": "staticwebassets\\images\\juice\\Juice-1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\juice\\orange-juice.jpg",
+      "PackagePath": "staticwebassets\\images\\juice\\orange-juice.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\meet.jpeg",
+      "PackagePath": "staticwebassets\\images\\meet.jpeg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\meet1.jpg",
+      "PackagePath": "staticwebassets\\images\\meet1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n1.jpg",
+      "PackagePath": "staticwebassets\\images\\n1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n2.jpg",
+      "PackagePath": "staticwebassets\\images\\n2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n3.jpg",
+      "PackagePath": "staticwebassets\\images\\n3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n4.jpg",
+      "PackagePath": "staticwebassets\\images\\n4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n5.jpg",
+      "PackagePath": "staticwebassets\\images\\n5.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n6.jpg",
+      "PackagePath": "staticwebassets\\images\\n6.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n7.jpg",
+      "PackagePath": "staticwebassets\\images\\n7.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n8.jpg",
+      "PackagePath": "staticwebassets\\images\\n8.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\n9.jpg",
+      "PackagePath": "staticwebassets\\images\\n9.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para1.jpg",
+      "PackagePath": "staticwebassets\\images\\para1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para2.jpg",
+      "PackagePath": "staticwebassets\\images\\para2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para3.jpg",
+      "PackagePath": "staticwebassets\\images\\para3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para4.jpg",
+      "PackagePath": "staticwebassets\\images\\para4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para5.jpg",
+      "PackagePath": "staticwebassets\\images\\para5.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para6.jpg",
+      "PackagePath": "staticwebassets\\images\\para6.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para7.jpg",
+      "PackagePath": "staticwebassets\\images\\para7.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para8.jpg",
+      "PackagePath": "staticwebassets\\images\\para8.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\para9.jpg",
+      "PackagePath": "staticwebassets\\images\\para9.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta1.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta2.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta3.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta4.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta5.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta5.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta6.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta6.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta7.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta7.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta8.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta8.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pasta9.jpg",
+      "PackagePath": "staticwebassets\\images\\pasta9.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\person.png",
+      "PackagePath": "staticwebassets\\images\\person.png"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pizza.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pizza\\cheese.jpeg",
+      "PackagePath": "staticwebassets\\images\\pizza\\cheese.jpeg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pizza\\chicken.webp",
+      "PackagePath": "staticwebassets\\images\\pizza\\chicken.webp"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pizza\\classic-cheese.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza\\classic-cheese.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pizza\\homemade pepperoni.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza\\homemade pepperoni.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pizza\\margherita.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza\\margherita.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pizza\\pastta_pizza.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\pastta_pizza.png"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\pizza\\wood_fired_sourdough.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza\\wood_fired_sourdough.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\post-img-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img-01.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\post-img-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img-02.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\post-img-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img-03.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\preloader.gif",
+      "PackagePath": "staticwebassets\\images\\preloader.gif"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\qt-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\qt-bg.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\quotations-button.png",
+      "PackagePath": "staticwebassets\\images\\quotations-button.png"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ritu.jpeg",
+      "PackagePath": "staticwebassets\\images\\ritu.jpeg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\ritu.jpg",
+      "PackagePath": "staticwebassets\\images\\ritu.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\s1.jpg",
+      "PackagePath": "staticwebassets\\images\\s1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\s2.jpg",
+      "PackagePath": "staticwebassets\\images\\s2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\s3.jpg",
+      "PackagePath": "staticwebassets\\images\\s3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\s4.jpg",
+      "PackagePath": "staticwebassets\\images\\s4.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\s6.jpg",
+      "PackagePath": "staticwebassets\\images\\s6.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\s7.jpg",
+      "PackagePath": "staticwebassets\\images\\s7.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\s8.jpg",
+      "PackagePath": "staticwebassets\\images\\s8.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\s9.jpg",
+      "PackagePath": "staticwebassets\\images\\s9.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\shef1.jpg",
+      "PackagePath": "staticwebassets\\images\\shef1.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\shef2.jpg",
+      "PackagePath": "staticwebassets\\images\\shef2.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\shef3.jpg",
+      "PackagePath": "staticwebassets\\images\\shef3.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\shopping.png",
+      "PackagePath": "staticwebassets\\images\\shopping.png"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\slider-01.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-01.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\slider-02.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-02.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\slider-03.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-03.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\stuff-img-01.jpg",
+      "PackagePath": "staticwebassets\\images\\stuff-img-01.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\stuff-img-02.jpg",
+      "PackagePath": "staticwebassets\\images\\stuff-img-02.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\stuff-img-03.jpg",
+      "PackagePath": "staticwebassets\\images\\stuff-img-03.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\stuff-img-04.jpg",
+      "PackagePath": "staticwebassets\\images\\stuff-img-04.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\stuff-img-05.jpg",
+      "PackagePath": "staticwebassets\\images\\stuff-img-05.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\stuff-img-06.jpg",
+      "PackagePath": "staticwebassets\\images\\stuff-img-06.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\images\\vivek.jpg",
+      "PackagePath": "staticwebassets\\images\\vivek.jpg"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MRV-resturant.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MRV-resturant.props",
+      "PackagePath": "build\\MRV-resturant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MRV-resturant.props",
+      "PackagePath": "buildMultiTargeting\\MRV-resturant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MRV-resturant.props",
+      "PackagePath": "buildTransitive\\MRV-resturant.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

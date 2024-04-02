@@ -1,0 +1,78 @@
+﻿@using System.Data.SqlClient
+@using Microsoft.AspNetCore.Http.HttpResults
+@using System.Security.Claims
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="~/css/footer.css" rel="stylesheet" />
+	<link href="~/css/header.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="~/css/home.css" rel="stylesheet" />
+    <link href="~/css/header.css" rel="stylesheet" />
+    <link href="~/css/footer.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="~/Seazone.styles.css" asp-append-version="true" />-->
+    <!-- Add jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var prevScrollpos = window.pageYOffset;
+            var navbar = document.getElementById("navbar");
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+
+                // Hide Navbar on Scroll Down
+                if (prevScrollpos > currentScrollPos) {
+                    navbar.style.top = "0";
+                } else {
+                    navbar.style.top = "-80px";
+                }
+                prevScrollpos = currentScrollPos;
+            };
+        });
+    </script>
+</head>
+<body>
+
+<script>
+    // JavaScript to open dropdown menu when clicking on the user image
+    document.getElementById("user-dropdown").addEventListener("click", function(event) {
+        event.stopPropagation(); // Prevents the document click event from closing the dropdown
+        var dropdownMenu = this.querySelector(".dropdown-menu");
+        dropdownMenu.classList.toggle("show");
+    });
+
+    // Close dropdown menu when clicking outside of it
+    document.addEventListener("click", function(event) {
+        var dropdownMenus = document.querySelectorAll(".dropdown-menu");
+        dropdownMenus.forEach(function(menu) {
+            if (!menu.contains(event.target)) {
+                menu.classList.remove("show");
+            }
+        });
+    });
+</script>
+
+<style>
+    /* CSS to hide the arrow */
+    .dropdown-toggle::after {
+        display: none !important;
+    }
+</style>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

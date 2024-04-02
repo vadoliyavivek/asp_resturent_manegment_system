@@ -1,0 +1,104 @@
+﻿@model MRV_resturant.Models.ReservationModel;
+@{
+    ViewData["Title"] = "reservation";
+}
+<link href="~/css/reservation.css" rel="stylesheet" />
+<link href="~/css/header.css" rel="stylesheet" />
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>RESERVATION</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="lex-container">
+    <div class="heading-title text-center">
+        <h2>BOOKING TABLE</h2>
+    </div>
+
+    <form id="basic-form" action="" method="post">
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <input type="text" class="form-control1" placeholder=" Name" name="Name" asp-for="Name" required />
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <input type="text" class="form-control1" placeholder=" Email" name="Email" asp-for="Email" required />
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control1" placeholder=" Mobile" name="mobile" asp-for="Mobile" required />
+                        </div>
+                    </div>
+                </td>
+                <td class="td-margin">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <input type="number" class="form-control1" placeholder=" How Many Person" name="person" min="0" asp-for="Person" required />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <input class="form-control1" type="date" id="date" placeholder=" Date" name="date" asp-for="Date" required />
+                        </div>
+                    </div>
+                </td>
+                <td class="td-margin">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <input class="form-control1" type="time" placeholder=" Time" name="time" asp-for="Time" required />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <select class="form-control1" name="food" asp-for="Food" required>
+                                <option>FOOD</option>
+                                <option>PIZZA</option>
+                                <option>FAST FOOD</option>
+                                <option>BURGER</option>
+                                <option>JUICE</option>
+                            </select>
+                        </div>
+                    </div>
+                </td>
+                <td class="td-margin">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <select class="form-control1" name="occasion" asp-for="Occasion">
+                                <option>Occasion</option>
+                                <option>Birthday Party</option>
+                                <option>Anniversary</option>
+                                <option>Day Celebration</option>
+                                <option>Dating</option>
+                                <option>Wedding</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="mt-5 text-center">
+            <button class="btn2" type="submit">Book Table</button>
+        </div>
+    </form>
+</div>

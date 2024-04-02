@@ -1,0 +1,66 @@
+﻿@model MRV_resturant.Models.RegistrestionModel
+@{
+    ViewData["Title"] = "Signup_page";
+    Layout = "~/Views/Shared/_Layout_login.cshtml";
+}
+<link rel="stylesheet" href="styles.css?v=1">
+
+<div class="b">
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-t-25">
+                <form id="registerForm" class="login100-form validate-form" asp-controller="Login" asp-action="Signup_page" method="post">
+                    <span class="login100-form-title p-b-37">
+                        Sign Up
+                    </span>
+
+                    <span class="login100-form-avatar">
+                        <img src="~/images/MRV.png" alt="" />
+                    </span>
+
+                    <div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate="Enter username">
+                        <input class="input100 input1" placeholder="Name" asp-for="Name" required />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate="Enter Email">
+                        <input class="input100 input1" placeholder="Email" asp-for="Email" required />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate="Enter Mobile Number">
+                        <input class="input100 input1" placeholder="Mobile Number" asp-for="Number" required />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
+                        <input class="input100 input1" placeholder="Password" type="password" asp-for="Password" required />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-50" data-validate="Confirm password">
+                        <input class="input100 input1" placeholder="Confirm Password" type="password" name="cpass" required />
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="container-login100-form-btn5">
+                        <button class="login100-form-btn5 input1" type="submit">Registration</button>
+                    </div>
+
+                    <br />
+
+                    <ul class="login-more p-t-50">
+                        <li>
+                            <span class="txt1">
+                                Do You have an account?
+                            </span>
+                            <a class="txt2" asp-controller="Login" asp-action="Login_page">
+                                Sign In
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

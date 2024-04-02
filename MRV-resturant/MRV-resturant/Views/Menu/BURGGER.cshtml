@@ -1,0 +1,141 @@
+﻿
+@{
+    ViewData["Title"] = "BURGGER";
+}
+<link href="~/css/header.css" rel="stylesheet" />
+
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>BURGER</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table>
+    <tr>
+        <td>
+			<div class="con">
+                <img src="~/images/burgger.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Beef Burgers</h3></td>
+                        <td><h3 class="text-right">₹ 180</h3></td>
+                    </tr>
+                </table>
+                <h4>Amezing</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/2.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Turkey Burgers</h3></td>
+                        <td><h3 class="text-right">₹ 150</h3></td>
+                    </tr>
+                </table>
+                <h4>Very Testy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/burgger.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Veggie Burgers</h3></td>
+                        <td><h3 class="text-right">₹ 200</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="con">
+                <img src="~/images/2.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Bison Burgers</h3></td>
+                        <td><h3 class="text-right">₹ 170</h3></td>
+                    </tr>
+                </table>
+                <h4>So Sweet</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+@* @model List<BurgerItem> // Assuming BurgerItem is the model for your burger items
+
+@{
+    ViewData["Title"] = "BURGGER";
+}
+
+<link href="~/css/header.css" rel="stylesheet" />
+
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>BURGER</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <div class="con">
+                    <img src="~/images/burgers/@item.ImageUrl" height="250px" width="100%" alt="" />
+                    <table>
+                        <tr>
+                            <td><h3 class="text-left">@item.Name</h3></td>
+                            <td><h3 class="text-right">₹ @item.Price</h3></td>
+                        </tr>
+                    </table>
+                    <div class="gridbtn">
+                        <button class="btn1" name="cart" type="submit">
+                            <img src="~/images/shopping.png" width="30" height="30" />
+                        </button>
+                        <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    }
+</table>
+ *@

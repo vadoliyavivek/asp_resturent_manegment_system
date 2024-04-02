@@ -1,0 +1,104 @@
+﻿
+    @{
+        ViewData["Title"] = "Menu";
+    }
+<link href="~/css/footer.css" rel="stylesheet" />
+<link href="~/css/header.css" rel="stylesheet" />
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <h1>SPECIAL MENU</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="restaurant-menu">
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <h2 class="menu-section-title">PIZZA</h2>
+                    <div class="menu-section">
+                        <center>
+                            <div class="menu-item">
+                                <a asp-controller="Menu" asp-action="Pizza">
+                                    <img src="~/images/pizza.jpg" class="menu-item-product1" width="500" height="400" alt="" />
+                                </a>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+                <td>
+                    <h2 class="menu-section-title">FastFood</h2>
+                    <div class="menu-section">
+                        <center>
+                            <div class="menu-item">
+                                <a asp-controller="Menu" asp-action="Fastfood">
+                                    <img src="~/images/fastfood.jpeg" class="menu-item-product1" width="500" height="400" alt="" />
+                                </a>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 class="menu-section-title">BURGGER</h2>
+                    <div class="menu-section">
+                        <center>
+                            <div class="menu-item">
+                                <a asp-controller="Menu" asp-action="BURGGER">
+                                    <img src="~/images/burgger.jpg" class="menu-item-product1" width="500" height="400" alt="" />
+                                </a>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+
+                <td>
+                    <h2 class="menu-section-title">All Dishes</h2>
+                    <div class="menu-section">
+                        <center>
+                            <div class="menu-item">
+								<a asp-controller="Menu" asp-action="All_Dishes">
+                                    <img src="~/images/1.jpg" class="menu-item-product1" width="500" height="400" alt="" />
+                                </a>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 class="menu-section-title">Juice</h2>
+                    <div class="menu-section">
+                        <center>
+                            <div class="menu-item">
+                                <a asp-controller="Menu" asp-action="Juice">
+                                    <img src="~/images/Juice6.jpg" class="menu-item-product1" width="500" height="400" alt="" />
+                                </a>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+
+                <td>
+                    <h2 class="menu-section-title">Cold Drinks</h2>
+                    <div class="menu-section">
+                        <center>
+                            <div class="menu-item">
+                                <a asp-controller="Menu" asp-action="Drinks">
+                                    <img src="~/images/calldrinks.jpg" class="menu-item-product1" width="500" height="400" alt="" />
+                                </a>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</div>

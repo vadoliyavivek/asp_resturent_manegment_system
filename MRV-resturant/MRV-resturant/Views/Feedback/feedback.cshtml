@@ -1,0 +1,62 @@
+﻿@model MRV_resturant.Models.FeedbackModel;
+@{
+    ViewData["Title"] = "feedback";
+}
+<head>
+    <link href="~/css/header.css" rel="stylesheet" />
+    <link href="https://kendo.cdn.telerik.com/themes/7.2.0/default/default-main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <script src="js/kendo.all.min.js"></script>
+
+
+</head>
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>FEEDBACK</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+
+<div class="heading-title text-center">
+    <h2>Give Your Review</h2>
+</div>
+
+<div class="flex-container">
+    <center>
+        <form id="basic-form" action="" method="post">
+
+            <br />
+            <div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate="Enter Name">
+                <input class="input100" type="text" placeholder="Your Name" name="Name" asp-for="Name" />
+            </div>
+
+            <div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate="Enter Email">
+                <input class="input100" type="text" placeholder="Your Email" name="Email" asp-for="Email" />
+            </div>
+
+            <div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate="Enter Email">
+                <input class="input100" type="text" id="complain" placeholder="Any Complain of Waiter" name="Complain" asp-for="Complain" />
+            </div>
+
+            <div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate="Enter Email">
+                <input class="input100" type="number"  id="complain" placeholder="Give the Rating Between 1-10" name="Rating" asp-for="Rating" />
+            </div>
+            <div class="wrap-input100">
+                <textarea class="input100" id="message" name="message" placeholder="Give Any Suggestion" required="required" data-validation-required-message="Please enter your message" asp-for="Message"></textarea>
+            </div>
+
+            <br /><br />
+
+            <div>
+                <button class="btn2" type="submit" name="save">Send Message</button>
+            </div>
+            <br />
+        </form>
+    </center>
+</div>

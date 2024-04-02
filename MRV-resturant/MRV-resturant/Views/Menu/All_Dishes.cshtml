@@ -1,0 +1,160 @@
+﻿
+@{
+    ViewData["Title"] = "All_Dishes";
+}
+<link href="~/css/header.css" rel="stylesheet" />
+
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>ALL DISHES</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table>
+    <tr>
+        <td>
+            <div class="con">
+                <img src="~/images/dishes/1.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Gujarati Dish</h3></td>
+                        <td><h3 class="text-right">₹ 250</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/dishes/2.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Panjabi Dish</h3></td>
+                        <td><h3 class="text-right">₹ 200</h3></td>
+                    </tr>
+                </table>
+                <h4>Yummy 👌👌</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/dishes/3.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Gujarati Dish</h3></td>
+                        <td><h3 class="text-right">₹ 300</h3></td>
+                    </tr>
+                </table>
+                <h4>😋😋😋</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="con">
+                <img src="~/images/dishes/4.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">West Dish</h3></td>
+                        <td><h3 class="text-right">₹ 280</h3></td>
+                    </tr>
+                </table>
+                <h4>😜😜😜</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="con">
+                <img src="~/images/dishes/5.jpg" height="250px" width="100%" alt="" />
+                <table>
+                    <tr>
+                        <td><h3 class="text-left">Kathiyavadi Dish</h3></td>
+                        <td><h3 class="text-right">₹ 250</h3></td>
+                    </tr>
+                </table>
+                <h4>So Yammy</h4>
+                <div class="gridbtn">
+                    <button class="btn1" name="cart" type="submit">
+                        <img src="~/images/shopping.png" width="30" height="30" />
+                    </button>
+                    <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+@* @model List<MenuItem> // Assuming MenuItem is the model for your menu items
+
+@{
+    ViewData["Title"] = "All_Dishes";
+}
+
+<link href="~/css/header.css" rel="stylesheet" />
+
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>ALL DISHES</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <div class="con">
+                    <img src="~/images/dishes/@item.ImageUrl" height="250px" width="100%" alt="" />
+                    <table>
+                        <tr>
+                            <td><h3 class="text-left">@item.Name</h3></td>
+                            <td><h3 class="text-right">₹ @item.Price</h3></td>
+                        </tr>
+                    </table>
+                    <div class="gridbtn">
+                        <button class="btn1" name="cart" type="submit">
+                            <img src="~/images/shopping.png" width="30" height="30" />
+                        </button>
+                        <a class="btn2" asp-controller="Order" asp-action="Order" type="submit" name="order">ORDER</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    }
+</table> *@

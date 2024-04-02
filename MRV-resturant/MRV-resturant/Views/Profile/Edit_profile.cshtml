@@ -1,0 +1,178 @@
+﻿@{
+    ViewData["Title"] = "Edit_profile";
+}
+@model MRV_resturant.Models.RegistrestionModel
+
+<link href="~/css/header.css" rel="stylesheet" />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<section id="doctors" class="doctors section-bg">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const editProfileBtn = document.getElementById('editProfileBtn');
+            const changePictureBtn = document.getElementById('changePictureBtn');
+            const removePictureBtn = document.getElementById('removePictureBtn');
+            const saveProfileBtn = document.getElementById('saveProfileBtn');
+            const inputs = document.querySelectorAll('.form-control1'); // Select all input fields
+
+            // Click event for the "Edit Profile" button
+            editProfileBtn.addEventListener('click', function () {
+                // Toggle edit mode for input fields
+                inputs.forEach(input => input.toggleAttribute('readonly'));
+
+                // Toggle the visibility of change, remove, and save buttons
+                changePictureBtn.style.display = changePictureBtn.style.display === 'none' ? 'block' : 'none';
+                removePictureBtn.style.display = removePictureBtn.style.display === 'none' ? 'block' : 'none';
+                saveProfileBtn.style.display = saveProfileBtn.style.display === 'none' ? 'block' : 'none';
+            });
+
+            // Click event for the "Save Profile" button
+            saveProfileBtn.addEventListener('click', function () {
+                // Submit the form
+                document.getElementById('profileForm').submit();
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const changePictureBtn = document.getElementById('changePictureBtn');
+            const imageInput = document.getElementById('imageInput');
+
+            // Click event for the "Change" button
+            changePictureBtn.addEventListener('click', function () {
+                // Simulate a click event on the file input element
+                imageInput.click();
+            });
+
+            // Change event for the image input
+            imageInput.addEventListener('change', function () {
+                const formData = new FormData(); // Create FormData object
+                formData.append('file', imageInput.files[0]); // Append the selected file
+
+                // Send a POST request to upload the image
+                fetch('@Url.Action("UpdateProfilePicture", "Profile")', {
+                    method: 'POST',
+                    body: formData // Set the request body as FormData
+                }).then(response => {
+                    // Handle response or reload the page
+                    window.location.reload();
+                }).catch(error => {
+                    console.error('Error uploading image:', error);
+                });
+            });
+        });
+
+    </script>
+
+    <form id="profileForm" name="f1" method="post">
+        <div class="containerrr rounded bg-white mt-5 mb-5" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                        @if (Model != null && Model.ProfileImage != null)
+                        {
+                            <img id="profileImage" class="rounded-circle mt-5" width="150px" alt=""
+                                 src="data:image;base64,@(Convert.ToBase64String(Model.ProfileImage))" />
+
+                            <br />
+                        }
+                        else
+                        {
+                            <!-- Show default image if profile image is not available -->
+                            <img id="profileImage" class="rounded-circle mt-5" width="150px" alt=""
+                                 src="~/images/user.png" />
+
+                            <br />
+                        }
+                        <span class="font-weight-bold">@((Model != null) ? Model.Name : "NA")</span>
+                        <div>
+                            <button type="button" class="btn10" id="editProfileBtn" asp-controller="Profile" asp-action="Edit_profile">Edit Profile</button>
+                            <input type="file" id="imageInput" name="file" style="display: none;" accept="image/*">
+                            <button type="button" class="btn10" id="changePictureBtn">Change</button>
+                            <button type="button" class="btn10" id="removePictureBtn">Remove</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 border-right">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="text-left">Profile Settings</h4>
+                        </div>
+
+                        <!-- Name Field -->
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Name</label>
+                                <input type="text" class="form-control1" name="name" placeholder="Name" asp-for="Name" required readonly value="@((Model != null) ? Model.Name : "NA")" />
+                            </div>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Email ID</label>
+                                <input type="text" class="form-control1" name="email" placeholder="enter email id" asp-for="Email" required readonly value="@((Model != null) ? Model.Email : "NA")" />
+                            </div>
+                        </div>
+
+                        <!-- Mobile Number Field -->
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Mobile Number</label>
+                                <input type="text" class="form-control1" name="mobile" placeholder="enter phone number" asp-for="Number" required readonly value="@((Model != null) ? Model.Number : "NA")" />
+                            </div>
+                        </div>
+
+                       @*  <!-- City and District Fields -->
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <label class="labels">City</label>
+                                            <input type="text" class="form-control1" name="city" placeholder="enter your City" required readonly />
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="td-margin">
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <label class="labels">District</label>
+                                            <input type="text" class="form-control1" name="district" placeholder="enter your District" required readonly  />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- ZipCode Field -->
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">ZipCode</label>
+                                <input type="text" class="form-control1" name="zipcode" placeholder="enter Zipcode" required readonly />
+                            </div>
+                        </div>
+
+                        <!-- Address Field -->
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Address</label>
+                                <textarea class="form-control1" name="address" placeholder="enter address " readonly readonly >)</textarea>
+                            </div>
+                        </div>*@
+
+                        <!-- Save Profile Button -->
+                        <div class="mt-5 text-center">
+                            <button class="btn2" type="submit" id="saveProfileBtn" asp-controller="Profile" asp-action="Edit_profile" style="display: none;">Save Profile</button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+
+

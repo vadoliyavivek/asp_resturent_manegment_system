@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MRV-resturant - Copy\\MRV-resturant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\views\\profile\\edit_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\views\\profile\\edit_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\controllers\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\controllers\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\views\\about\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\views\\about\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\views\\login\\login_page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\views\\login\\login_page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\controllers\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\controllers\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\models\\registrestionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\models\\registrestionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|d:\\mrv-resturant - copy\\mrv-resturant\\mrv-resturant\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2155DB-5AB7-465A-8537-87BB5EDF4030}|MRV-resturant\\MRV-resturant.csproj|solutionrelative:mrv-resturant\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "contact.cshtml",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\Contact\\contact.cshtml",
+              "RelativeDocumentMoniker": "MRV-resturant\\Views\\Contact\\contact.cshtml",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\Contact\\contact.cshtml",
+              "RelativeToolTip": "MRV-resturant\\Views\\Contact\\contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABVAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T06:33:02.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Controllers\\Login.cs",
+              "RelativeDocumentMoniker": "MRV-resturant\\Controllers\\Login.cs",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Controllers\\Login.cs",
+              "RelativeToolTip": "MRV-resturant\\Controllers\\Login.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:26:06.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login_page.cshtml",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\Login\\Login_page.cshtml",
+              "RelativeDocumentMoniker": "MRV-resturant\\Views\\Login\\Login_page.cshtml",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\Login\\Login_page.cshtml",
+              "RelativeToolTip": "MRV-resturant\\Views\\Login\\Login_page.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswCQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T15:25:53.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegistrestionModel.cs",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Models\\RegistrestionModel.cs",
+              "RelativeDocumentMoniker": "MRV-resturant\\Models\\RegistrestionModel.cs",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Models\\RegistrestionModel.cs",
+              "RelativeToolTip": "MRV-resturant\\Models\\RegistrestionModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:48:39.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "MRV-resturant\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Models\\LoginModel.cs",
+              "RelativeToolTip": "MRV-resturant\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:48:28.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Controllers\\Profile.cs",
+              "RelativeDocumentMoniker": "MRV-resturant\\Controllers\\Profile.cs",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Controllers\\Profile.cs",
+              "RelativeToolTip": "MRV-resturant\\Controllers\\Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:03:52.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "MRV-resturant\\Data\\UserDbContext.cs",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "MRV-resturant\\Data\\UserDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T04:46:26.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MRV-resturant\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MRV-resturant\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-29T06:34:54.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit_profile.cshtml",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\Profile\\Edit_profile.cshtml",
+              "RelativeDocumentMoniker": "MRV-resturant\\Views\\Profile\\Edit_profile.cshtml",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\Profile\\Edit_profile.cshtml",
+              "RelativeToolTip": "MRV-resturant\\Views\\Profile\\Edit_profile.cshtml",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAcwLIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T15:43:20.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "about.cshtml",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\About\\about.cshtml",
+              "RelativeDocumentMoniker": "MRV-resturant\\Views\\About\\about.cshtml",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\About\\about.cshtml",
+              "RelativeToolTip": "MRV-resturant\\Views\\About\\about.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T03:48:33.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MRV-resturant\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MRV-resturant\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:40:28.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MRV-resturant\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MRV-resturant\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T15:32:52.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "About.cs",
+              "DocumentMoniker": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Controllers\\About.cs",
+              "RelativeDocumentMoniker": "MRV-resturant\\Controllers\\About.cs",
+              "ToolTip": "D:\\MRV-resturant - Copy\\MRV-resturant\\MRV-resturant\\Controllers\\About.cs",
+              "RelativeToolTip": "MRV-resturant\\Controllers\\About.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:48:59.361Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
